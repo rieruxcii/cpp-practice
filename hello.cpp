@@ -11,11 +11,12 @@ int main() {
   std::cin >> guess;
 
   // Write a while loop here:
-  
-
-
-
-
+  while (guess != 8)
+  {
+    std::cout << "Wrong guess, try again!" << std::endl;
+    std::cout << "Another guess: ";
+    std::cin >> guess;
+  }
 
   if (guess == 8) {
 
